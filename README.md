@@ -2,7 +2,7 @@
 
 Adaptive syndrome extraction circuits with heralded errors 
 
-Step 1: parity matrix 
+Step 1: Parity matrix and logical observables
 
 Step 2: Tanner graph
 
