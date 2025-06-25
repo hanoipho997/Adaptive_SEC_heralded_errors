@@ -17,7 +17,7 @@ We use `css.py` to define CSS codes. This script imports quantum LDPC codes from
 ##  Step 2: Tanner Graph and Edge Coloring
 
 The Tanner graph and its  edge-coloring are constructed using:
-- `tanner_graph.py`
+- `graphs/tanner_graph.py`
 - `graphs/edge_coloring.py`
 
 ---
@@ -27,6 +27,7 @@ The Tanner graph and its  edge-coloring are constructed using:
 Custom static syndrome extraction circuits are implemented in:
 - `sec_circuits/sec_static.py`
 
+Quatum memory experiments with custom SEC and built-in Stim is shown in `example_css.ipynb`
 ---
 
 ##  Step 4: Adaptive Syndrome Extraction Circuits
