@@ -27,7 +27,7 @@ The Tanner graph and its  edge-coloring are constructed using:
 Custom static syndrome extraction circuits are implemented in:
 - `sec_circuits/sec_static.py`
 
-Quatum memory experiments with custom SEC and built-in Stim is shown in `example_css.ipynb`. Data can be found at the `data folder/`. For the simple static SEC case,`threshold_data_static_surfacecode.npz`,  `threshold_data_stim_surfacecode.npz`.
+Quatum memory experiments with custom SEC and built-in Stim is shown in `example_css.ipynb`. Data can be found at the folder `data/`. For the simple static SEC case,`threshold_data_static_surfacecode.npz`,  `threshold_data_stim_surfacecode.npz`.
 
 ---
 
