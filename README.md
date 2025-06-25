@@ -28,6 +28,7 @@ Custom static syndrome extraction circuits are implemented in:
 - `sec_circuits/sec_static.py`
 
 Quatum memory experiments with custom SEC and built-in Stim is shown in `example_css.ipynb`
+
 ---
 
 ##  Step 4: Adaptive Syndrome Extraction Circuits
