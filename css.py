@@ -50,3 +50,25 @@ class ToricCode(CSS):
         L_Z = np.asarray(code.get_logical_ops(qldpc.objects.Pauli.Z))
         super(ToricCode, self).__init__(H_Z, H_X, L_Z, L_X)
 
+from sympy.abc import x, y
+
+class GrossCode(CSS):
+    def __init__(self):
+        # Define cyclic group orders
+        orders = {x: 12, y: 6}
+        
+        # Define polynomials for Gross code [[144, 12, 12]]
+        poly_a = x**3 + y + y**2      # A(x, y)
+        poly_b = x**2 + x + + y**3          # B(x, y)
+
+        # Construct the BBCode
+        code = qldpc.codes.BBCode(orders, poly_a, poly_b)
+
+        # Convert into CSS code form
+        H_Z = np.asarray(code.matrix_z)
+        H_X = np.asarray(code.matrix_x)
+        L_X = np.asarray(code.get_logical_ops(qldpc.objects.Pauli.X))
+        L_Z = np.asarray(code.get_logical_ops(qldpc.objects.Pauli.Z))
+
+        # Initialize base CSS
+        super().__init__(H_Z, H_X, L_Z, L_X)
