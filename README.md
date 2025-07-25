@@ -39,3 +39,12 @@ We add stochastic heralded CZ gate failures in:
 Then, detectors and adapted circuits are constructed for each round of syndrome extraction.
 
 ---
+## Clean Class:
+
+Clean developing class for the framework is given at
+- `shor_ec.py`
+- `decoders.py`
+
+Test notebook is given at
+
+-`playground_shor.ipynb`
